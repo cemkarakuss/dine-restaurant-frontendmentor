@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Dine Website Challenge</title>
+  <link rel="stylesheet" href="styles/booking.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+
+  <div class="container">
+    <div class="hero">
+      <div class="hero-img ">
+        <div class="reserve-hero">
+          <div class="logo animate__animated animate__fadeInDownBig">
+            <img src="images/logo.svg" alt="">
+          </div>
+          <div class="reserve-info animate__animated animate__fadeInLeftBig">
+            <h1>Reservations</h1>
+          <p>We can’t wait to host you. If you have any special requirements please feel free to 
+            call on the phone number below. We’ll be happy to accommodate you.</p>
+            <button>RESERVE PLACE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="inputs">
+      <form class="input-button animate__animated animate__fadeInBottomLeft" action="index.html">
+        <input type="text" placeholder="name" id="name" >
+        <p class="error-name">This field is required</p>
+        <input type="email" name="email" id="email" placeholder="email">
+        <p class="error-email">This field is required</p>
+        <div class="dateinp">
+          <div class="lbl-p">
+            <label for="date">Pick a Date</label>
+           <p class="error-date">This field is incomplete</p>
+          </div>
+          <input type="date" name="date" id="date" placeholder="date" >
+        </div>
+        <div class="timeinp">
+          <div class="lbl-p">
+            <label for="time">Pick a Time</label>
+            <p class="error-date-time">This field is incomplete</p>
+          </div>
+          <input type="time" name="datetime" id="datetime" placeholder="timeinp">
+        </div>
+        <div class="person">
+          <div class="azalt">
+            <img src="images/icons/icon-minus.svg" alt="">
+          </div>
+          <h2 class="peopleText">0 People</h2>
+          <div class="arttir  ">
+            <img src="images/icons/icon-plus.svg" alt="">
+          </div>
+        </div>
+        <button type="submit">Make Reservation</button>
+      </form>
+      <div class="divimgline">
+      </div>
+      <div class="bottomrightradiusbg"></div>
+    </div>
+    <div class="footer">
+      <div class="logo-footer">
+        <img src="images/logo.svg" alt="">
+      </div>
+      <div class="footer-textdiv">
+        <div class="textdiv1">
+          <p>Marthwaite, Sedbergh<br> Cumbria<br>
+          +00 44 123 4567</p>
+        </div>
+        <div class="textdiv2">
+          <p>OPEN TIMES<br>
+            MON - FRI: 09:00 AM - 10:00 PM<br>
+            SAT - SUN: 09:00 AM - 11:30 PM
+            </p>
+        </div>
+        
+      </div>
+
+    </div>
+
+
+  </div>
+  <!-- 
+
+  
+
+
+
+  Name
+  Email
+  Pick a date
+  Pick a time
+
+  Make Reservation
+
+
+
+  Marthwaite, Sedbergh
+  Cumbria
+  +00 44 123 4567
+
+  Open Times
+  Mon - Fri: 09:00 AM - 10:00 PM
+  Sat - Sun: 09:00 AM - 11:30 PM -->
+
+  <script src="app/booking.js"></script>
+</body>
+</html>
