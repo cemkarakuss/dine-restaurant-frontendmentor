@@ -63,7 +63,6 @@ familyClick.onclick = () => {
 function removeClass(){
     infosImg.classList.remove('animate__animated')
     infosImg.classList.remove('animate__fadeInDown')
-    console.log('silindi')
   }
 
 // --booking--  

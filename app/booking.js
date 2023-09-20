@@ -24,21 +24,6 @@ const dateInput = document.querySelector('input[id="date"]');
 const dateTimeInput = document.querySelector('input[id="datetime"]');
 
 
-
-nameInput.addEventListener('change', function(){
-  console.log(nameInput.value)
-})
-emailInput.addEventListener('change', function(){
-  console.log(emailInput.value)
-})
-dateInput.addEventListener('change', function(){
-  console.log(dateInput.value)
-})
-dateTimeInput.addEventListener('change', function(){
-  console.log(dateTimeInput.value)
-})
-
-
 const submitButton = document.querySelector('button[type="submit"]')
     submitButton.addEventListener('click',function(e){
       
